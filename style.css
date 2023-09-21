@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main Clases */
+
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+
+.spacing{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+/* Navigation css */
+
+ul{
+    list-style: none;
+
+}
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+    margin-right: 20px;
+}
+.nav-links{
+    flex-basis: 730px;
+}
+
+.style-links{
+    color: black;
+    transition: 0.2s ease-out;
+}
+
+.style-links:hover{
+    color: #3D51E6;
+}
+
+.display-flex a{
+    text-decoration: none;
+}
+
+.second-btn{
+    background: #3D51E6;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px #3D51E6;
+    transition: 0.2s ease-out;
+}
+
+.second-btn:hover{
+    background: #4577e2;
+    color: #fff;
+}
+
+.logo img{
+    width: 180px;
+}
+
+/* Header css */
+
+header{
+    padding: 50px 20px 0;
+}
+
+.main-header-body{
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+/* .header-one{
+    width: 400px;
+    height: 500px;
+} */
+
+.header-two img{
+    width: 600px;
+}
+
+.btn-margin{
+    display: inline-block;
+    margin-top: 20px;
+}
+.header-one h1{
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.header-one p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    color: #585858;
+    font-size: 1.5rem;
+}
+
+
+/* Our Services css */
+
+.section-1{
+    padding: 130px 0;
+}
+
+.services-header{
+    text-align: center;
+}
+
+.services-header p{
+    font-family: 'Roboto', sans-serif;
+    color: #585858;
+    margin-top: 20px;
+}
+
+.main-services{
+    width: 100%;
+    height: 400px;
+    background: #E4D6FB;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.section-2{
+    padding: 80px 20 ;
+}
+.section-1{
+    padding: 130px 0;
+}
+
+.services-header{
+    text-align: center;
+}
+
+.services-header p{
+    font-family: 'Roboto', sans-serif;
+    color: #585858;
+    margin-top: 20px;
+}
+
+.main-services{
+    width: 100%;
+    height: 400px;
+    background: #E4D6FB;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.section-2{
+    padding: 80px 20 ;
+}
+
+.services-1{
+    width: 210px;
+    height: 240px;
+    border: 1px #e9e9e9 solid;
+    background: #EAE0FC;
+    border-radius: 20px;
+    margin: 35px 0;
+    padding: 10px 20px;
+}
+
+.services-1 img{
+    width: 40px;
+    height: auto;
+    
+}
+
+.margin-sections{
+    margin: 10px;
+}
+
+.margin-sections p{
+    color: #585858;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.seemore-section{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+    display: flex;
+}
+.seemore-section a{
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.services-1{
+    width: 210px;
+    height: 240px;
+    border: 1px #e9e9e9 solid;
+    background: #EAE0FC;
+    border-radius: 20px;
+    margin: 35px 0;
+    padding: 10px 20px;
+}
+
+.services-1 h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.services-1 img{
+    width: 40px;
+    height: auto;
+    
+}
+
+.margin-sections{
+    margin: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.item-alignment{
+    justify-content: center;
+}
+
+/* Why Choose Us section */
+
+.section-2{
+    padding: 80px 20px ;
+}
+
+.side-1 img{
+    width: 600px;
+}
+
+.side-2 h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
+}
+
+.side-2 p{
+    text-align: center;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #585858;
+    margin-right: 50px;
+}
+
+
+.features-1{
+    background: #9D61FF;
+    width: 190px;
+    height: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.features-1 img{
+    width: 50px;
+}
+
+.features-1 p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+/* Our Recent Work section */
+
+.section-3{
+    padding: 80px 20px ;
+}
+
